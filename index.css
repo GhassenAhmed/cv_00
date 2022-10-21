@@ -13,6 +13,9 @@ a{
     
     
 }
+header{
+    background-color: rgb(0,0,0);
+}
 a:after{
     content:'';
     position: absolute;
@@ -25,4 +28,23 @@ a:after{
 }
 a:hover::after{
 width: 23%;
+}
+#asideH1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+aside{
+    background-color: rgba(0, 0, 0, 0.845);
+}
+#aside1 >span,h1{
+    color: #fff;
+    
+}
+#aside2{
+    background-color: rgb(0,0,0);
+}
+p{
+    text-align: justify;
+    font-size: 10px;
 }

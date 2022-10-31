@@ -1,7 +1,7 @@
-h1{
-    border-radius:30px;
-    border-color: #FF1313;
-    size: 50px;
+/*****************************************header***************************************************/
+.typewriter p{
+    padding-top: 50px;
+   
 }
 .navbar{
     display: flex;
@@ -14,8 +14,19 @@ a{
     
 }
 header{
-    background-color: rgb(0,0,0);
+    background-color: whitesmoke;
+    
 }
+header img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 174px;
+    transition-property: inherit;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+s
 a:after{
     content:'';
     position: absolute;
@@ -29,22 +40,40 @@ a:after{
 a:hover::after{
 width: 23%;
 }
-#asideH1{
-    text-align: center;
-    padding-top: 50px;
-    
-}
-aside{
-    background-color: rgba(0, 0, 0, 0.845);
-}
-#aside1 >span,h1{
-    color: #fff;
-    
-}
-#aside2{
-    background-color: rgb(0,0,0);
-}
-p{
-    text-align: justify;
-    font-size: 10px;
-}
+
+.typewriter{
+    display: inline-block;
+  }
+  .typewriter p{
+    font-family: monospace;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    animation: blink 0.3s step-end infinite alternate,
+    typing 3s steps(13);
+  }
+  @keyframes blink{
+    50%{
+      border-color: transparent;
+    }
+  }
+  @keyframes typing{
+    from{
+      width: 0%;
+      
+    }
+  }
+
+
+
+
+
+
+/****************************************************************aside************************************/
+
+
+  

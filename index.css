@@ -1,161 +1,58 @@
-/*****************************************header***************************************************/
 *{
-  background-color: rgb(255, 255, 255);
-  margin: 0;
   padding: 0;
-}
-a .nav-link{
-  color: rgb(7, 50, 88);
-}
-.nav{
-  background-color: black;
-  
+  margin: 0;
 }
 header{
-  background-color: black;
+  background-image: url("images/photo-1477346611705-65d1883cee1e.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 79%);
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .typewriter p{
-    padding-top: 50px;
-   
+ #name , a{
+  color: aliceblue;
+  font-weight: 300;
+  font-family:Brush Script;
+  font-size: 30px;
 }
-.navbar{
-    display: flex;
+.nav-link{
+  color: aliceblue;
+  font-weight: 300;
+  font-family:Brush Script;
+  font-size: 20px;
+  margin-left: 50px;
+  font-weight:bolder;
 }
-a{
-    text-decoration: none;
-    color: #fff;
-    
-    
-    
+#contact-me{
+  background-color: #EB455F;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  color: #EEEEEE;
+  margin-left: 50px;
+  margin-top: 9px;
 }
-header{
-    background-color: whitesmoke;
-    
+#contact-me:hover{
+  background-color: #EEEEEE;
+  color: #EB455F;
 }
-header img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-right: 174px;
-    transition-property: inherit;
-    border: 1px solid orange;
-    cursor: pointer;
+.img img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border: 5px solid #92aca824;
+  -webkit-box-shadow: 2px 7px 16px -4px #000000; 
+box-shadow: 2px 7px 16px -4px #000000;
 }
-s
-a:after{
-    content:'';
-    position: absolute;
-    background-color: #FF1313;
-    height: 3px;
-    width: 0%;
-    left: 0;
-    bottom: 2px;
-    transition: 0.4s;
+.me{
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
 }
-a:hover::after{
-width: 23%;
+.me h1{
+  color: aliceblue;
+  padding-top: 20px;
+  font-family:Brush Script;
 }
-
-.typewriter{
-    display: inline-block;
-  }
-  .typewriter p{
-    font-family: monospace;
-    font-size: 50px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    white-space: nowrap;
-    width: 100%;
-    overflow: hidden;
-    border-right: 0.15em solid orange;
-    animation: blink 0.3s step-end infinite alternate,
-    typing 3s steps(13);
-  }
-  @keyframes blink{
-    50%{
-      border-color: transparent;
-    }
-  }
-  @keyframes typing{
-    from{
-      width: 0%;
-      
-    }
-  } */
-
-
-
-
-
-
-/****************************************************************aside************************************/
-
-
-  

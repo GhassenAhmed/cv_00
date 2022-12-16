@@ -1,5 +1,87 @@
 /*****************************************header***************************************************/
-.typewriter p{
+*{
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+a .nav-link{
+  color: rgb(7, 50, 88);
+}
+.nav{
+  background-color: black;
+  
+}
+header{
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .typewriter p{
     padding-top: 50px;
    
 }
@@ -46,8 +128,8 @@ width: 23%;
   }
   .typewriter p{
     font-family: monospace;
-    font-size: 90px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 300;
     letter-spacing: 2px;
     white-space: nowrap;
     width: 100%;
@@ -66,7 +148,7 @@ width: 23%;
       width: 0%;
       
     }
-  }
+  } */
 
 
 

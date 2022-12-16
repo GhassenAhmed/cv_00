@@ -7,7 +7,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 79%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 93%);
 
 }
  #name , a{
@@ -15,6 +15,7 @@ header{
   font-weight: 300;
   font-family:Brush Script;
   font-size: 30px;
+  cursor: pointer;
 }
 .nav-link{
   color: aliceblue;
@@ -55,4 +56,14 @@ box-shadow: 2px 7px 16px -4px #000000;
   color: aliceblue;
   padding-top: 20px;
   font-family:Brush Script;
+}
+.job{
+  font-size: 30px;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #B4CDE6, 0 0 30px #B4CDE6, 0 0 40px #B4CDE6, 0 0 55px #B4CDE6, 0 0 75px #B4CDE6, -1px 40px 2px #EB455F;
+}
+/* ************************section **********************/
+section{
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+  background-color: #251749;
+  height: 750px;
 }

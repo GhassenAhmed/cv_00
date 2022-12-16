@@ -48,24 +48,34 @@ header{
   border: 5px solid #92aca824;
   -webkit-box-shadow: 2px 7px 16px -4px #000000; 
 box-shadow: 2px 7px 16px -4px #000000;
+
+}
+.img img:hover{
+  -webkit-box-shadow: 5px 5px 12px 3px #FFFFFF; 
+   box-shadow: 5px 5px 12px 3px #FFFFFF;
+   cursor: pointer;
+   width: 260px;
+  height: 260px;
 }
 .me{
   justify-content: center;
   align-items: center;
   padding-top: 50px;
   flex-direction: column;
+  
 }
 .me h1{
   color: aliceblue;
   padding-top: 20px;
   font-family:Brush Script;
+  margin-top: 50px;
 }
 .job{
   font-size: 30px;
   text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #B4CDE6, 0 0 30px #B4CDE6, 0 0 40px #B4CDE6, 0 0 55px #B4CDE6, 0 0 75px #B4CDE6, -1px 40px 2px #EB455F;
 }
 /* ************************section **********************/
-section{
+#about{
   clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
   background-color: #251749;
   

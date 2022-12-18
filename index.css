@@ -139,3 +139,18 @@ box-shadow: 2px 7px 16px -4px #000000;
   text-align: justify;
   color: #FFF;
 }
+.swiper{
+  width: 70%;
+  height: 90%;
+}
+.swiper img{
+  width: 100%;
+  height: 500px;
+  border-radius: 15px; 
+}
+#portfolio{
+  background-color: #373966;
+}
+.swiper-button-prev{
+  margin-right: 50px;
+}

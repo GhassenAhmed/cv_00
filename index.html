@@ -11,6 +11,10 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="index.css" />
     <title>CV</title>
   </head>
@@ -115,11 +119,90 @@
           </div>
         </div>
       </section>
+      <section id="portfolio">
+        <div class="desc px-5 py-5">
+            <h4>What I Do</h4><span class="float-end" style="font-size: 30px;color:#B7C4CF;">03</span>
+            <h1><span style="border-bottom: 3px solid #EB455F;">My</span> Projects</h1>
+        </div>
+        <div class="row d-flex row-cols-md-1 row-cols-lg-1 row-cols-xl-1 row-cols-sm-1 py-5 justify-content-between align-items-center">
+
+          <div class="col mt-4">
+            <div class="desc text-center py-5">
+              <h1>Movie Project</h1>
+              <h3 style="color:#EB455F;">Vue JS , Bootstrap & API</h3>
+            </div>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/ghassen.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/5cb5344bd3af65f75fd3da0aaf67df58.jpg" alt=""></div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+
+          <div class="col mt-4 py-5">
+            <div class="desc text-center py-5">
+              <h1>School Management Project</h1>
+              <h3 style="color:#EB455F;">PHP , Mysql , Bootstrap , JS</h3>
+            </div>
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./images/ghassen.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./images/5cb5344bd3af65f75fd3da0aaf67df58.jpg" alt=""></div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            
+             
+            </div>
+          </div>
+
+        </div>
+      </section>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.swiper', {
+      // Optional parameters
+     
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      })
+    </script>
   </body>
 </html>

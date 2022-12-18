@@ -77,13 +77,16 @@ box-shadow: 2px 7px 16px -4px #000000;
 /* ************************section **********************/
 #about{
   clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
-  background-color: #251749;
+  background-color: #1E2131;
   
 }
 .about img{
   width: 450px;
   height: 500px;
-  border: 5px solid #92aca824;
+  border: 1px solid #92aca824;
+  /* border-radius: 30px; */
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
 }
 .image{
   padding-left: 50px;
@@ -109,4 +112,30 @@ box-shadow: 2px 7px 16px -4px #000000;
   padding: 5px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
+}
+.services{
+  background-color: #24253C;
+}
+ h4{
+  color:#EB455F;
+  font-family: 'Courier New', Courier, monospace;
+}
+ h1{
+  color:aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+.services .col1{
+  border: 1px solid #EB455F ;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.services .col1 h1{
+  font-size: 40px;
+ text-transform: uppercase;
+}
+.services .col1 p{
+  font-size: 25px;
+  text-align: justify;
+  color: #FFF;
 }

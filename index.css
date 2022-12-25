@@ -154,3 +154,6 @@ box-shadow: 2px 7px 16px -4px #000000;
 .swiper-button-prev{
   margin-right: 50px;
 }
+.social #f{
+  background: red;
+}
